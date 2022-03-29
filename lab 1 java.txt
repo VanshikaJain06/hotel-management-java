@@ -1,0 +1,82 @@
+JAVA LAB-1
+                                          Hotel Booking and Management System
+
+Classes:
+
+Booking:
+Booking date_date
+Booking id_int
+Booking name_string
+Status of booking_string
+Checkout date_date
+ 
+ METHODS: search_ BookingbyName() , update_booking(), count_BookingbyId(), search_BookingbyId() 
+
+      2.   Employees:
+                 a. Employee_id_int
+                 b. Employee name_string
+     c. Gender_string
+     d. Email_string
+     e. Contact_int
+     f.  Employeesalary_float
+
+ METHODS: search_Employee(), Update_Employee(), count_Employee(),   Sort_EmployeebySalary(), incrsal_employee()
+
+
+     3. Guests:
+                A.guest id_int
+    B.guest name_string
+    C.contact_int
+    D.email_string
+    E.No.of guests_int
+    F.address_string
+
+METHODS: update_GuestbyId(), count_no.ofguests(), search_guestsbyname(), get_guestdetails 
+
+
+    4.Hotel:
+               A.  Hotel_name string
+               B.  Hotel_id int
+               C.  Hotel address_string
+               D. Hotel rating_float
+               E.City_string
+               F.contact_varchar
+
+METHODS: search_hotelByname(), update_hotelrating(), sort_hotelbyname(), get_hoteldetails() , modify_hoteldetails
+
+               
+
+5.Payment:
+Payment id_int
+Payment mode_string
+Payment method_string
+Payment status_string
+Total payment_varchar
+Payment date_ date
+
+METHODS: Modify_paymentstatus(), get_paymentdetails(), sort_paymentBYdate(),
+                    payment_conversion(), calculate_totalpayment()
+
+
+6.Room:
+
+A.room rate_decimal
+B.room_number
+C.room id_int
+D. room status_string
+E. room type_string
+F.room_description_string
+
+METHODS: Get_roomdetails(), search_roomtype(), update_roomstatus(), sort_by room rate()
+
+
+7.Services:
+          A.service_name string
+          B.service_type_string
+          C.service_id_int
+          D.service schedule_string
+          E.service rate_float
+
+METHODS: Get_details by serviceId(),  calculate_servicerate(), update_service(), modify_serviceschedule()
+          
+
